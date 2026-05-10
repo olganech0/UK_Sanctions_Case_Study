@@ -28,7 +28,7 @@ During exploratory data analysis, several data quality issues were identified:
 
 ### Output
 Main Dataset & Three relational data bases:
-- **`entities_master.csv`**: The master table containing exactly one row per Unique ID. Holds core identity and operational data (Primary Name, DOB, Identifiers, Asset Freeze flags).
+- **`entities_master.csv`**: The master table containing exactly one row per Unique ID. Holds core identity and operational data (Primary Name, DOB, Identifiers).
 - **`aliases.csv`**: A one-to-many table mapping Unique IDs to all known alternate names, alongside their standardized alias strength/quality. Optimized for fuzzy matching.
 - **`addresses.csv`**: A one-to-many table mapping Unique IDs to all known addresses, countries, and contact details (email/phone) for geographic risk flagging.
 
