@@ -16,7 +16,7 @@ Aim: Prepare sanctions data for comparing against a banks customer records.
 - Open the Jupyter Notebook.
 - Change '...' within directories to own pathway.
 - Click **Kernel > Restart & Run All**.
-- Pipeline will automatically create an `output_data/` folder containing the three clean, relational CSV files.
+- Pipeline will automatically create an `output_data/` folder containing the relational CSV files and main dataset.
 
 ### Data Quality Insights (EDA Findings)
 During exploratory data analysis, several data quality issues were identified:
